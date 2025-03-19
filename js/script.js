@@ -27,6 +27,9 @@ async function searchImages() {
         imageLink.target = "_blank";
         imageLink.appendChild(image);
         searchResult.appendChild(imageLink);
+        image.style.width = "200px";
+image.style.height = "150px";
+image.style.objectFit = "cover"; 
     })
     showMoreBtn.style.display = "block";
 }
